@@ -1,0 +1,51 @@
+/* body {
+    background-image: url("img/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+
+div {
+    padding: 40px;
+    width: 500px;
+    background-color: rgb(243, 222, 222);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #3d4d79;
+    border-radius: 30px;
+}
+
+img {
+    width: 200px;
+    margin-left: 30%;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px purple;
+}
+
+h1 {
+    color:#3d4d79;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-class {
+    list-style: none;
+    background-color: palevioletred;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(214, 62, 113);
+}
+
+.list-class > a  {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
